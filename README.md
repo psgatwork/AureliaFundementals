@@ -4,6 +4,7 @@ Npm init
 Npm install jspm
 Npm install express
 
+jspm registry config github
 Jspm init (select Babel as transpiler)
 
 Jspm install aurelia-framework
