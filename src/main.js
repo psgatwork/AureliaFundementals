@@ -12,5 +12,6 @@ export function configure(aurelia) {
 
     // SetRoot function. this refers to the immidiate component to bind here
     // and to what element it should target to.
-    aurelia.start().then(x => x.setRoot("app",document.body));
+    aurelia.start().then(x => x.setRoot("shell",document.body));
 }
+
