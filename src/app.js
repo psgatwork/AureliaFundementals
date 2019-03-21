@@ -1,10 +1,10 @@
-import { serviceOne } from "serviceOne";
+//import { serviceOne } from "serviceOne";
 import { inject } from "aurelia-framework";
 
-// @inject(serviceOne)
+@inject("serviceInstance")
 export class App {
     // Inject ServiceOne to viewModel of app
-    static inject = [serviceOne];
+    //static inject = [serviceOne];
     constructor(serviceOne) {
         
         // Use Property of injected service
