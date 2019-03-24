@@ -4,9 +4,9 @@ export class Shell {
     }
     configureRouter(config, router) {
         this.router = router;
-        config.title= "New Route Module";
+        config.title = "New Route Module";
         config.map([
-            {route:'', moduleId:'eventSection'}
+            { route: ['', 'eventSection'], moduleId: 'eventSection', name:'Events N', title:'Events T', nav: true}
         ]);
     }
 }
