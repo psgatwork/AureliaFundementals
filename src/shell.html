@@ -1,6 +1,14 @@
 <template>
     <!--Navigation Bar-->
-    <div class="row">Shell</div>
+    <div class="row">
+        <div>
+            <ul>
+                <li repeat.for="route of router.navigation">
+                    <a href.bind="route.href">${route.title}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!--Content Area-->
     <div class="row">
